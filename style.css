@@ -9,11 +9,10 @@
 
 body{
     display: flex;
-    background: #627254;
-    display: flex;
+    background: #BACD92;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .container{
@@ -47,7 +46,7 @@ body{
 .imgbox {
     margin-left: auto;
     margin-right: auto;
-    background: #627254;
+    background: #DDDDDD;
     height: 150px;  
     width: 150px; 
     border-radius: 50%;
@@ -261,4 +260,3 @@ p{
     padding: 10px;
     }
 }
-
