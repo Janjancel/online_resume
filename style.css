@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #31572C;
+    font-weight: 100px ;
+}
+
+body{
+    display: flex;
+    background: #627254;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    /* max-width: 100%;
+    min-height: 100%; */
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px  rgba(0,0,0,0.1);
+}
+
+.container .left_side{
+    position: relative;
+    background: #EEEEEE;
+    padding: 30px;
+}
+
+.container .right_side{
+    position: relative;
+    background: #DDDDDD;
+    padding: 30px;
+}
+
+.sub{
+    color: #4F772D;
+}
+
+.imgbox {
+    margin-left: auto;
+    margin-right: auto;
+    background: #627254;
+    height: 150px;  
+    width: 150px; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgbox .img{
+    border-radius: 10%;
+} 
+
+.imgtxt h2{
+    color: #132A13;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.imgtxt h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+
+.contacts{
+    padding-top: 40px;
+}
+
+.title{
+    color: #132A13;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacts ul{
+    position: relative;
+}
+
+.contacts ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 0%;
+}
+
+.contacts ul li .icon{
+    display: inline-block;
+    max-width: 100%;
+    font-size: 18px;
+    color: #31572C;
+    padding: 0%;
+}
+
+
+
+.contacts ul li span{
+    color: #132A13;
+    font-weight: 300; 
+}
+
+.education li{
+    margin-bottom: 15px;
+    margin-left: 25px;
+    padding: 0%;
+
+}
+
+.education h5{
+    color: #132A13;
+    font-weight: 500;
+}
+
+.education h4:nth-child(2){
+    color: #132A13;
+    font-weight: 500;
+}
+
+.education h4{
+    color: #132A13;
+    font-weight: 300;
+}
+
+.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    display: block;
+    margin-top: 5px;
+}
+
+.language .text{
+    color: #132A13;
+    font-weight: 300;
+    padding-top: 0%;
+  
+}
+
+.list  {
+    margin-left: 25px;
+}
+
+.title{
+    padding-top: 50px;
+}
+
+.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #132A13;
+    
+}
+
+.about{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0%;}
+
+.about:last-child{
+    margin-bottom: 0;
+    padding: 0%;
+}
+
+.title2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 0%;
+}
+
+p{
+    color: #4F772D;
+    font-weight: 500;
+    padding: 0%;
+}
+
+.about .about:last-child{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #4F772D;
+    font-weight: 500;
+}
+
+.skills .title2{
+    padding-top: 50px;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr ;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4{
+    text-transform: uppercase;
+    color: #4F772D;
+    font-weight: 500;
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #132A13;
+    
+}
+
+.language{
+    font-size: 15px;
+}
+
+.interest ul li .icon{
+    padding: 0%;
+    margin-left: 25px;
+}
+.interest_list{
+    margin-left: 25px;
+}
+
+/* for smartphone */
+@media screen and (max-width: 412px) {
+    body{
+        padding: 5px;
+    }
+   * {font-size :clamp(1rem, -3rem + -20vw, 3rem);
+    }
+}
+
+/* for tablet */
+@media screen and (max-width: 768px) {
+   * {font-size :clamp(1rem, -2.rem + 11.1498vw, 3rem);
+    padding: 10px;
+    }
+}
+
